@@ -22,7 +22,7 @@ export class ErrorInterceptor implements HttpInterceptor {
 
                 }
 
-                console.log("Erro detectado pelo interceptor")
+                console.log("Erro detectado pelo interceptor: ");
                 console.log(errorObj);
 
 
@@ -39,4 +39,4 @@ export class ErrorInterceptor implements HttpInterceptor {
             multi: true,
 
 
-        }
+        };
