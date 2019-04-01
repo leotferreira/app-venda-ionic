@@ -4,6 +4,9 @@ import { STORAGE_KEYS } from "../config/storage_keys.config";
 
 @Injectable()
 export class StorageService {
+    static setLocalUser(arg0: null): any {
+        throw new Error("Method not implemented.");
+    }
 
         getLocalUser() : LocalUser {
             let usr = localStorage.getItem(STORAGE_KEYS.localUser);
