@@ -38,13 +38,8 @@ export class ProdutosPage {
        .subscribe(response => {
           item.imageUrl = `${API_CONFIG.bucketBaseUrl}/prod${item.id}-small.jpg`;
        },
-
        error => {});
-
-       
-
     }
-
   }
 
 
