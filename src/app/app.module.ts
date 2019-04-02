@@ -11,6 +11,7 @@ import { ErrorInterceptorProvider } from '../interceptors/error-interceptor';
 import { StorageService } from '../services/storage_service';
 import { ClienteService } from '../services/domain/cliente.service';
 import { AuthInterceptorProvider } from '../interceptors/auth-interceptor';
+import { ProdutoService } from '../services/domain/produto.service';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { AuthInterceptorProvider } from '../interceptors/auth-interceptor';
     ErrorInterceptorProvider,
     AuthService,
     StorageService,
-    ClienteService
+    ClienteService,
+    ProdutoService
 
   ]
 })
